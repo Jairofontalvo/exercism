@@ -7,3 +7,5 @@ def convert(number):
     if number % 7 == 0:
         sonido += "Plong"   
     return sonido if sonido != "" else str(number)
+    
+print (convert(5))
